@@ -1,0 +1,53 @@
+html,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightblue;
+  font-family: sans-serif, "cursive";
+}
+
+.container {
+  width: 100%;
+  width: 100%;
+}
+.container nav ul li {
+  font-size: 1em;
+}
+.container nav a {
+  text-decoration: none;
+}
+
+.container nav ul > li:nth-child(1) {
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+.transform {
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
+  transform: rotate(20deg) scale(1.5);
+}
+
+.transform-2 {
+  width: 200px;
+  height: 300px;
+  background-color: yellow;
+  transform: rotate(20deg) scale(1.5);
+}
+
+.border1, .border {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.border1 {
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */
