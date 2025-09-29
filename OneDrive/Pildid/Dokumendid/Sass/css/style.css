@@ -1,3 +1,11 @@
+html,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: lightblue;
   font-family: sans-serif, "cursive";
@@ -7,7 +15,10 @@ body {
   width: 100%;
   width: 100%;
 }
-.container nav ul li {
+.container nav ul li:nth-child(1) {
+  font-size: 1em;
+}
+.container nav ul li:nth-child(2) {
   font-size: 1em;
 }
 .container nav a {
@@ -18,6 +29,65 @@ body {
   font-size: 1em;
   width: 100%;
   height: 100%;
+}
+
+.transform {
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg) scale(1.5);
+  -webkit-transform: rotate(20deg) scale(1.5);
+  transform: rotate(20deg) scale(1.5);
+}
+
+.transform-2 {
+  width: 200px;
+  height: 300px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg) scale(1.5);
+  -webkit-transform: rotate(20deg) scale(1.5);
+  transform: rotate(20deg) scale(1.5);
+}
+
+.border1, .border {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.border1 {
+  margin: 20px;
+}
+
+.element a {
+  text-decoration: none;
+  color: black;
+}
+.element a:hover {
+  color: white;
+}
+
+.header {
+  font-size: 6px;
+  height: 75%;
+}
+
+.multi {
+  width: 100%;
+  height: 6px;
+}
+
+pbefore {
+  content: "I am a string withquate";
+  font-family: cursiveserif;
+}
+
+html,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

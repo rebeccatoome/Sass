@@ -90,3 +90,21 @@ body {
         }
     }
 }
+
+.header {
+font-size: 4px + 2px; //additon
+
+height: 80%-5%;  //subtraction
+}
+
+.multi {
+    width: 20% * 5;
+    height: (24px/4);
+}
+
+p {
+ &before {
+    content:"I am a string with" + quate;
+    font-family: cursive + "serif";
+    }
+}
